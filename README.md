@@ -29,3 +29,8 @@ win --> end1
 if -->|no| loose
 loose --> end1
 ```
+
+## 使用方法
+1. app5.js を起動する
+1. Webブラウザでlocalhost:8080/public/janken.htmlにアクセスする
+1. 自分の手を入力する
