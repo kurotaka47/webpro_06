@@ -41,14 +41,14 @@ app.get("/janken", (req, res) => {
   // 勝敗の判定
   let judgement = '';
   if (hand === 'グー') {
-    if (cpu === 'グー') judgement = '引き分け';
+    if (cpu === 'グー') judgement = 'あいこ';
     else if (cpu === 'チョキ') {
       judgement = '勝ち';
       win += 1;
     } else judgement = '負け';
   } else if (hand === 'チョキ') {
     if (cpu === 'グー') judgement = '負け';
-    else if (cpu === 'チョキ') judgement = '引き分け';
+    else if (cpu === 'チョキ') judgement = 'あいこ';
     else {
       judgement = '勝ち';
       win += 1;
@@ -60,7 +60,7 @@ app.get("/janken", (req, res) => {
     } else if (cpu === 'チョキ') judgement = '負け';
     else judgement = '引き分け';
   } else {
-    judgement = '無効な手です';
+    judgement = 'あいこ';
   }
 
   if (judgement !== 'あいこ') {
