@@ -58,7 +58,7 @@ app.get("/janken", (req, res) => {
       judgement = '勝ち';
       win += 1;
     } else if (cpu === 'チョキ') judgement = '負け';
-    else judgement = '引き分け';
+    else judgement = 'あいこ';
   } else {
     judgement = 'あいこ';
   }
