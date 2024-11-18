@@ -2,14 +2,25 @@
 
 ## このプログラムについて
 
+## app5.jsについて
+
+### hello1について
+このプログラムはHello worldとBon jourの挨拶をshow.ejsに表示させます
+
+### hello2について
+hello1と機能はほとんど同じだがメッセージは直接関数内に渡されます
+
+### iconについて
+このプログラムはアイコンの画像ファイルを表示させます
+
 ## ファイル一覧
 
 ファイル名|説明
 -|-
 app5.js|プログラム本体
 public/janken.html|じゃんけんの開始画面
-views/janken.egs|じゃんけんのテンプレートファイル
-views/atti.egs|あっち向いてホイのテンプレートファイル
+views/janken.ejs|じゃんけんのテンプレートファイル
+views/atti.ejs|あっち向いてホイのテンプレートファイル
 views/yubisuma.ejs|指スマのテンプレートファイル
 
 
