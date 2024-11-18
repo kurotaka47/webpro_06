@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>あっち向いてホイ</title>
+</head>
+<body>
+  <h1>あっち向いてホイ</h1>
+  <form action="/atti" method="get">
+    <label for="hand">自分の方向を選択してください（上、下、左、右）:</label>
+    <select name="hand" id="hand">
+      <option value="上">上</option>
+      <option value="下">下</option>
+      <option value="左">左</option>
+      <option value="右">右</option>
+    </select>
+    <input type="hidden" name="win" value="0">
+    <input type="hidden" name="total" value="0">
+    <button type="submit">送信</button>
+  </form>
+</body>
+</html>
