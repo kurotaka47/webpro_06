@@ -9,6 +9,9 @@
 app5.js|プログラム本体
 public/janken.html|じゃんけんの開始画面
 views/janken.egs|じゃんけんのテンプレートファイル
+views/atti.egs|あっち向いてホイのテンプレートファイル
+views/yubisuma|指スマのテンプレートファイル
+
 
 ```javascript
 console.log( 'Hello' );
