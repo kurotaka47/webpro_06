@@ -45,6 +45,18 @@ loose --> end1
 ```
 
 ## 使用方法
+
+### じゃんけん
 1. app5.js を起動する
 1. Webブラウザでlocalhost:8080/public/janken.htmlにアクセスする
 1. 自分の手を入力する
+
+### あっち向いてホイ
+1.app5.jsを起動する
+1.Webブラウザでlocalhost:8080/public/atti.htmlにアクセスする
+1.自分の方向（上、下、左、右）を入力する
+
+### 指スマ
+1.app5.js を起動する
+1.Webブラウザでlocalhost:8080/public/yubi.htmlにアクセスす
+1.自分の指の数（0, 1, 2, 3, 4）を入力する
