@@ -77,7 +77,7 @@ app.get("/janken", (req, res) => {
   res.render('janken', display);
 });
 
-// Atti Muite Hoi
+// あっち向いてホイ
 app.get("/atti", (req, res) => {
   let hand = req.query.hand;
   let win = Number(req.query.win);
@@ -111,7 +111,7 @@ app.get("/atti", (req, res) => {
   res.render('atti', display);
 });
 
-// Yubi Suma
+// 指スマ
 app.get("/yubi", (req, res) => {
   let hand = req.query.hand;
   let win = Number(req.query.win);
