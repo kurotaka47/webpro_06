@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>指スマ</title>
+</head>
+<body>
+  <h1>指スマ</h1>
+  <form action="/yubi" method="get">
+    <label for="hand">自分の指の数を選択してください（0, 1, 2, 3, 4）:</label>
+    <select name="hand" id="hand">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <input type="hidden" name="win" value="0">
+    <input type="hidden" name="total" value="0">
+    <button type="submit">送信</button>
+  </form>
+</body>
+</html>
